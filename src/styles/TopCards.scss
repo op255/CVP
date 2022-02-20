@@ -1,0 +1,22 @@
+.top-cards-container {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 300px;
+  color: var(--clr-inverse-text);
+  .top-card {
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    display: flex;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #ECFFB0;
+    align-items: center;
+    justify-content: center;
+    &.dismissed {
+      transition-duration: .5s;
+      transform: translateX(500px);
+    }
+  }
+}

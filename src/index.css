@@ -1,4 +1,12 @@
+:root {
+  --clr-active: #ECFFB0;
+  --clr-default-text: #34352a;
+  --clr-inverse-text: #1e1d1d;
+  --clr-default-bg: #ebeff2;
+}
+
 body {
+  background-color: var(--clr-default-bg);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
